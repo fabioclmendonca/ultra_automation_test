@@ -12,7 +12,7 @@
       2) Linux/Mac: export Path=$Path:>> Chrome Driver folder here <<
    9) Run test suite using the following command:
 
-       nosetests -v tests/TestSauceDemo.py --with-html --html-file=nosetests.html
+       nosetests -v tests/TestSauceDemo.py --with-html --html-file=nosetests.html --with-xunit --xunit-file=nosetests.xml
 
 2) Project Definition:
 
